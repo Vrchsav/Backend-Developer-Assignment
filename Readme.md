@@ -43,6 +43,8 @@ npm start
 ## API Endpoints
 
 ### User Registration
+![Registration](/Images/register.png)
+
 - **URL**: `POST /api/users/`
 - **Content-Type**: `multipart/form-data`
 - **Body**:
@@ -71,6 +73,8 @@ npm start
   ```
 
 ### User Login
+![Login](/Images/login.png)
+
 - **URL**: `POST /api/users/login`
 - **Content-Type**: `application/json`
 - **Body**:
@@ -95,6 +99,8 @@ npm start
   ```
 
 ### Get Profile
+![Profile](/Images/Profile.png)
+
 - **URL**: `GET /api/users/profile`
 - **Headers**: 
   ```
@@ -114,6 +120,8 @@ npm start
   ```
 
 ### Update Profile
+![Update](/Images/update.png)
+
 - **URL**: `PUT /api/users/profile`
 - **Headers**: 
   ```
